@@ -52,14 +52,14 @@ body {
     margin-top: 0;
     color: #4f46e5;
   }
-
-  .cases .case-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  .cases-wrapper{
+    overflow-x: auto;
+    display: flex;
     gap: 20px;
   }
 
   .case {
+    flex: 0 0 300px;
     position: relative;
     overflow: hidden;
     border-radius: 10px;
@@ -87,6 +87,7 @@ body {
     padding: 10px;
     text-align: center;
   }
+  
 
   .pricing .plans {
     display: flex;
