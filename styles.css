@@ -90,8 +90,10 @@ body {
     color: white;
     padding: 10px;
     text-align: center;
+    font-weight: 900;
   }
   
+ 
 
   .pricing .plans {
     display: flex;
